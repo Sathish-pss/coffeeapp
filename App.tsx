@@ -5,6 +5,8 @@
  * @format
  */
 
+// Adding comments to check git is working
+
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
