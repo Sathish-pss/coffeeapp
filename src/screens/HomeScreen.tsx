@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 // Importing React Native components
-import {StyleSheet, Text, View} from 'react-native';
+import {Button, StyleSheet, Text, View} from 'react-native';
 // Importing External Libraries
 // Importing the customized components
 import {useStore} from '../store/store';
@@ -24,7 +24,8 @@ const HomeScreen = () => {
 
   return (
     <View>
-      <Text>HomeScreen</Text>
+      <Text>HomeScreen is the best screen in the entire app</Text>
+      <Button title="Welecome"></Button>
     </View>
   );
 };
